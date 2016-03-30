@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://sbussmann.github.io
+title: Fun with Analytics
+tagline: Predicting the Past, Present, and Future
+description: My analytical perspective on exciting topics (exciting to me, at least).
+paginate: 5
