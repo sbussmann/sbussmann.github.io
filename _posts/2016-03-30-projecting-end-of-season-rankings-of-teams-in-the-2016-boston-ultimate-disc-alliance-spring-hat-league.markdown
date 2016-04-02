@@ -19,32 +19,32 @@ Here is the full set of projected rankings.  The season starts tonight!  Looking
 
  19. Team 2
  1. Team 3 
- 21.       Team 11 
- 26.       Team 14 
- 13.       Team 23 
- 23.       Team 10 
- 10.       Team 13 
- 20.       Team 19 
- 2.        Team 24 
-0.        Team 21 
-9.        Team 22 
-17.       Team 30 
-24.         Team 6 
-7.        Team 12 
-22.       Team 17 
-8.          Team 8
-5.        Team 18 
-3.          Team 9 
-11.       Team 16 
-28.       Team 15 
-29.       Team 26
-4.        Team 25
-12.         Team 7
-18.    Team 1 
-15.       Team 20 
-27.         Team 4 
-25.       Team 29 
-14.         Team 5 
-16.       Team 27 
-6.        Team 28 
+ 21. Team 11 
+ 26. Team 14 
+ 13. Team 23 
+ 23. Team 10 
+ 10. Team 13 
+ 20. Team 19 
+ 2. Team 24 
+ 0. Team 21 
+ 9. Team 22 
+ 17. Team 30 
+ 24. Team 6 
+ 7. Team 12 
+ 22. Team 17 
+ 8. Team 8
+ 5. Team 18 
+ 3. Team 9 
+ 11. Team 16 
+ 28. Team 15 
+ 29. Team 26
+ 4. Team 25
+ 12. Team 7
+ 18. Team 1 
+ 15. Team 20 
+ 27. Team 4 
+ 25. Team 29 
+ 14. Team 5 
+ 16. Team 27 
+ 6. Team 28 
 
