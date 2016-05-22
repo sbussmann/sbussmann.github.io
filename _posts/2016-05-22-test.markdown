@@ -3,8 +3,34 @@ published: true
 title: Spring Hat League 2016, Post-mortem
 layout: post
 ---
-Spring hat league 2016 wrapped up last week, so it's time to look at how my predictions fared!
+Spring hat league 2016 wrapped up last week, so it's time to look at how my
+predictions fared!
 
-Let's jump straight in with the money plot.  This diagram shows the average score differential per game for all of the teams in the "JP Mixed (4/3)" division of spring hat league.  In my last post, I ranked teams in both "JP Mixed (4/3)" and "Lexington Mixed (4/3) Weekend" divisions in a single list, which is why I had 30 teams listed in the previous post.
+Let's jump straight in with the money plot.  This diagram shows the average
+score differential per game for all of the teams in the "JP Mixed (4/3)"
+division of spring hat league.  My team is highlighted by the red circle.  Yes,
+that's us in the lower right corner of the diagram.  I projected my team to
+finish near the bottom of the rankings, and we did.
 
-![Average score differential per game vs. predicted rating](https://github.com/sbussmann/buda-rank/blob/master/Code/SpringHat2016_validation.png?raw=true).
+![Average score differential per game vs. predicted
+rating](https://github.com/sbussmann/buda-rank/blob/master/Code/SpringHat2016_validation.png?raw=true).
+
+Another interesting feature of this diagram is the trend for teams with 
+higher predicted ratings to have better score differentials.  This is 
+compelling evidence in support of my methodology to rate BUDA teams.  I 
+suspect that putting this rating system into production for hat 
+league drafts would lead to more balanced teams than the current system.  To 
+test this hypothesis, I need access to the ratings that BUDA currently uses 
+for the draft.  I plan to contact BUDA to make this happen, with the eventual
+ goal of implementing my ratings during hat league drafts.
+ 
+In future posts, I plan to discuss
+ - methods to improve my ratings
+ - interesting teams (what's going on with the team with a predicted rating 
+  of 1050 and a score differential of +7??)
+ - comparison to existing BUDA rating system (if I get access to the data)
+ - interesting trends with time in the BUDA database
+
+> Note: In my last post, I ranked both the "JP Mixed (4/3)" and "Lexington Mixed
+(4/3) Weekend" divisions, which is why I had 30 teams listed in the previous
+post.
