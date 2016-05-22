@@ -13,7 +13,7 @@ that's us in the lower right corner of the diagram.  I projected my team to
 finish near the bottom of the rankings, and we did.
 
 ![Average score differential per game vs. predicted
-rating](https://github.com/sbussmann/buda-rank/blob/master/Code/SpringHat2016_validation.png?raw=true).
+rating](https://github.com/sbussmann/buda-rank/blob/master/Code/SpringHat2016_validation.png?raw=true)
 
 Another interesting feature of this diagram is the trend for teams with 
 higher predicted ratings to have better score differentials.  This is 
