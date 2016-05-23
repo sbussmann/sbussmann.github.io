@@ -13,7 +13,7 @@ Over the past week, I scraped the BUDA website using [BeautifulSoup](http://www.
 
 The upshot?  My assertion that winning is a secondary goal will be put to the test; I'm projecting team 20 to finish 25th out of 30.  Yikes!
 
-![Team 20 Projection](https://github.com/sbussmann/buda-rank/blob/master/Team20Rating.png)
+![Team 20 Projection](https://github.com/sbussmann/buda-rank/blob/master/Team20Rating.png?raw=true)
 
 Here is the full set of projected rankings.  The season starts tonight!  Looking forward to testing my projections!
 
