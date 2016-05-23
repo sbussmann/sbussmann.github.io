@@ -39,6 +39,7 @@ stud, we'd get up to about 1180, which would put us solidly in the upper half
  get up to about average.
  
 In future posts, I plan to discuss
+
  - methods to improve my ratings
  - interesting teams (what's going on with the team with a predicted rating 
   of 1050 and a score differential of +7??)
