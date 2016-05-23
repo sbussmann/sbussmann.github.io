@@ -52,9 +52,3 @@ In future posts, I plan to discuss
 > Note: In my last post, I ranked both the "JP Mixed (4/3)" and "Lexington Mixed
 (4/3) Weekend" divisions, which is why I had 30 teams listed in the previous
 post.
-
-`huh`
-
-```
-x = y
-```
