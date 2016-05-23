@@ -9,8 +9,9 @@ predictions fared!
 Let's jump straight in with the money plot.  This diagram shows the average
 score differential per game for all of the teams in the "JP Mixed (4/3)"
 division of spring hat league.  My team is highlighted by the red circle.  Yes,
-that's us in the lower right corner of the diagram.  I projected my team to
-finish near the bottom of the rankings, and we did.
+that's us in the lower left corner of the diagram.  I projected my team to
+finish near the bottom of the rankings, and we did.  I am proud and 
+embarrassed at the same time.
 
 ![Average score differential per game vs. predicted
 rating](https://github.com/sbussmann/buda-rank/blob/master/Code/SpringHat2016_validation.png?raw=true)
