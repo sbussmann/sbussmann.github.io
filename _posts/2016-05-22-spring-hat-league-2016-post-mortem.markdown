@@ -27,16 +27,19 @@ for the draft.  I plan to contact BUDA to make this happen, with the eventual
  
 One fun question we can ask right away is: how would my team have to change 
 to become an average spring hat league team?  To answer this question, we 
-need to know three things: there are 16 players on each team; a fantastic 
-player has a rating of about 1800; a complete novice has a rating of about 
-800.  So, if we replaced the lowest rated player on our roster with a 
-complete stud, our team rating would go up by (1800 - 800) / 16 = 62.5 points
-.  So my team's rating would become about 1120.  This would be significantly 
-below average, but not the worst team in the league anymore.  With another 
-stud, we'd get up to about 1180, which would put us solidly in the upper half
- of the league.  If you instead add a reasonably good player but not a stud 
- (rating of about 1400), then we'd need about 3 players of that quality to 
- get up to about average.
+need to know three things: 
+
+ 1. There are 16 players on each team.
+ 2. A fantastic player has a rating of about 1800.
+ 3. A complete novice has a rating of about 800.  
+ 
+If we replaced the lowest rated player on our roster with a complete stud, our
+team rating would go up by (1800 - 800) / 16 = 62.5 points.  My team's rating
+would become about 1120 -- we'd be significantly below average, but not the
+worst team in the league anymore.  We'd reach about 1180 with another stud --
+enough to be solidly in the upper half of the league.  Studs don't just grow on
+trees, so what if we added a "reasonably good player" (i.e., rating of about
+1400)?  In this case, we'd need about 3 players to get up to league average.
  
 In future posts, I plan to discuss
 
