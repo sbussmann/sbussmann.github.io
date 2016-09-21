@@ -1,36 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <title>Analytical Insight</title>
-    <link rel="shortcut icon" type="image/png" href="/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Analytical Insight Full Atom Feed" />
-    <link rel="stylesheet" href="/theme/css/screen.css" type="text/css" />
-    <link rel="stylesheet" href="/theme/css/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="/theme/css/print.css" type="text/css" media="print" />
-    <meta name="generator" content="Pelican" />
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li class="selected"><a href="">Home</a></li>
-            </ul>
-        </nav>
-        <div class="header_box">
-            <h1><a href="">Analytical Insight</a></h1>
-        </div>
-    </header>
-    <div id="wrapper">
-        <div id="content">            <h4 class="date">May 22, 2016</h4>
-
-            <article class="post">
-                <h2 class="title">
-                    <a href="/sph2016-post-mortem.html" rel="bookmark" title="Permanent Link to &quot;Spring Hat League 2016 Post-Mortem&quot;">Spring Hat League 2016 Post-Mortem</a>
-                </h2>
-
-                <style type="text/css">/*!
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Analytical Insight</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2016-05-22T22:13:00-04:00</updated><entry><title>Spring Hat League 2016 Post-Mortem</title><link href="/sph2016-post-mortem.html" rel="alternate"></link><published>2016-05-22T22:13:00-04:00</published><author><name>Shane Bussmann</name></author><id>tag:,2016-05-22:sph2016-post-mortem.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -261,7 +230,7 @@ div.unrecognized_cell .inner_cell a:hover {
   text-decoration: none;
 }
 @media (max-width: 540px) {
-  div.unrecognized_cell > div.prompt {
+  div.unrecognized_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -314,19 +283,19 @@ div.input_prompt {
   color: #303F9F;
   border-top: 1px solid transparent;
 }
-div.input_area > div.highlight {
+div.input_area &gt; div.highlight {
   margin: 0.4em;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-div.input_area > div.highlight > pre {
+div.input_area &gt; div.highlight &gt; pre {
   margin: 0px;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-/* The following gets added to the <head> if it is detected that the user has a
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
  * monospace font with inconsistent normal/bold/italic height.  See
  * notebookmain.js.  Such fonts will have keywords vertically offset with
  * respect to the rest of the text.  The user should select a better font.
@@ -372,7 +341,7 @@ div.input_area > div.highlight > pre {
 }
 /*
 
-Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
 Adapted from GitHub theme
 
 */
@@ -834,7 +803,7 @@ div.text_cell {
   align-items: stretch;
 }
 @media (max-width: 540px) {
-  div.text_cell > div.prompt {
+  div.text_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -899,8 +868,8 @@ h6:hover .anchor-link {
   font-size: 100%;
   font-style: italic;
 }
-</style>
-<style type="text/css">.highlight .hll { background-color: #ffffcc }
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
@@ -964,8 +933,8 @@ h6:hover .anchor-link {
 .highlight .vc { color: #19177C } /* Name.Variable.Class */
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style>
-<style type="text/css">
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -1001,61 +970,61 @@ h6:hover .anchor-link {
 .ansi-white-intense-bg { background-color: #A1A6B2; }
 
 .ansi-bold { font-weight: bold; }
-</style>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Spring hat league 2016 wrapped up last week, so it's time to look at how my
-predictions fared!</p>
-<p>Let's jump straight in with the money plot.  This diagram shows the average
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Spring hat league 2016 wrapped up last week, so it's time to look at how my
+predictions fared!&lt;/p&gt;
+&lt;p&gt;Let's jump straight in with the money plot.  This diagram shows the average
 score differential per game for all of the teams in the "JP Mixed (4/3)"
 division of spring hat league.  My team is highlighted by the red circle.  Yes,
 that's us in the lower left corner of the diagram.  I projected my team to
 finish near the bottom of the rankings, and we did.  I am proud and 
-embarrassed at the same time.</p>
-<p><img alt="Average score differential per game vs. predicted
-rating" src="figures/SpringHat2016_validation.png" /></p>
-<p>Another interesting feature of this diagram is the trend for teams with 
+embarrassed at the same time.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Average score differential per game vs. predicted
+rating" src="figures/SpringHat2016_validation.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Another interesting feature of this diagram is the trend for teams with 
 higher predicted ratings to have better score differentials.  This is 
 compelling evidence in support of my methodology to rate BUDA teams.  I 
 suspect that putting this rating system into production for hat 
 league drafts would lead to more balanced teams than the current system.  To 
 test this hypothesis, I need access to the ratings that BUDA currently uses 
 for the draft.  I plan to contact BUDA to make this happen, with the eventual
- goal of implementing my ratings during hat league drafts.</p>
-<p>One fun question we can ask right away is: how would my team have to change 
+ goal of implementing my ratings during hat league drafts.&lt;/p&gt;
+&lt;p&gt;One fun question we can ask right away is: how would my team have to change 
 to become an average spring hat league team?  To answer this question, we 
-need to know three things:</p>
-<ol>
-<li>There are 16 players on each team.</li>
-<li>A fantastic player has a rating of about 1800.</li>
-<li>A complete novice has a rating of about 800.  </li>
-</ol>
-<p>If we replaced the lowest rated player on our roster with a complete stud, our
+need to know three things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;There are 16 players on each team.&lt;/li&gt;
+&lt;li&gt;A fantastic player has a rating of about 1800.&lt;/li&gt;
+&lt;li&gt;A complete novice has a rating of about 800.  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If we replaced the lowest rated player on our roster with a complete stud, our
 team rating would go up by (1800 - 800) / 16 = 62.5 points.  My team's rating
 would become about 1120 -- we'd be significantly below average, but not the
 worst team in the league anymore.  We'd reach about 1180 with another stud --
 enough to be solidly in the upper half of the league.  Studs don't just grow on
 trees, so what if we added a "reasonably good player" (i.e., rating of about
-1400)?  In this case, we'd need about 3 players to get up to league average.</p>
-<p>In future posts, I plan to discuss</p>
-<ul>
-<li>methods to improve my ratings</li>
-<li>interesting teams (what's going on with the team with a predicted rating 
-of 1050 and a score differential of +7??)</li>
-<li>comparison to existing BUDA rating system (if I get access to the data)</li>
-<li>interesting trends with time in the BUDA database</li>
-</ul>
-<blockquote><p>Note: In my last post, I ranked both the "JP Mixed (4/3)" and "Lexington Mixed
+1400)?  In this case, we'd need about 3 players to get up to league average.&lt;/p&gt;
+&lt;p&gt;In future posts, I plan to discuss&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;methods to improve my ratings&lt;/li&gt;
+&lt;li&gt;interesting teams (what's going on with the team with a predicted rating 
+of 1050 and a score differential of +7??)&lt;/li&gt;
+&lt;li&gt;comparison to existing BUDA rating system (if I get access to the data)&lt;/li&gt;
+&lt;li&gt;interesting trends with time in the BUDA database&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;&lt;p&gt;Note: In my last post, I ranked both the "JP Mixed (4/3)" and "Lexington Mixed
 (4/3) Weekend" divisions, which is why I had 30 teams listed in the previous
-post.</p>
-</blockquote>
-</div>
-</div>
-</div>
-<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+post.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
@@ -1081,24 +1050,8 @@ post.</p>
         "}); ";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-</script>
-
-                <div class="clear"></div>
-
-                <div class="info">
-                    <a href="/sph2016-post-mortem.html">posted at 22:13</a>
-                    &nbsp;&middot;&nbsp;<a href="/category/posts.html" rel="tag">posts</a>
-                    &nbsp;&middot;
-                    &nbsp;<a href="/tag/buda.html" class="tags">buda</a>
-                </div>
-            </article>            <h4 class="date">Mar 30, 2016</h4>
-
-            <article class="post">
-                <h2 class="title">
-                    <a href="/forecast-sph2016.html" rel="bookmark" title="Permanent Link to &quot;Forecast for Spring Hat League 2016&quot;">Forecast for Spring Hat League 2016</a>
-                </h2>
-
-                <style type="text/css">/*!
+&lt;/script&gt;
+</summary><category term="buda"></category></entry><entry><title>Forecast for Spring Hat League 2016</title><link href="/forecast-sph2016.html" rel="alternate"></link><published>2016-03-30T21:12:00-04:00</published><author><name>Shane Bussmann</name></author><id>tag:,2016-03-30:forecast-sph2016.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1329,7 +1282,7 @@ div.unrecognized_cell .inner_cell a:hover {
   text-decoration: none;
 }
 @media (max-width: 540px) {
-  div.unrecognized_cell > div.prompt {
+  div.unrecognized_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -1382,19 +1335,19 @@ div.input_prompt {
   color: #303F9F;
   border-top: 1px solid transparent;
 }
-div.input_area > div.highlight {
+div.input_area &gt; div.highlight {
   margin: 0.4em;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-div.input_area > div.highlight > pre {
+div.input_area &gt; div.highlight &gt; pre {
   margin: 0px;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-/* The following gets added to the <head> if it is detected that the user has a
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
  * monospace font with inconsistent normal/bold/italic height.  See
  * notebookmain.js.  Such fonts will have keywords vertically offset with
  * respect to the rest of the text.  The user should select a better font.
@@ -1440,7 +1393,7 @@ div.input_area > div.highlight > pre {
 }
 /*
 
-Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
 Adapted from GitHub theme
 
 */
@@ -1902,7 +1855,7 @@ div.text_cell {
   align-items: stretch;
 }
 @media (max-width: 540px) {
-  div.text_cell > div.prompt {
+  div.text_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -1967,8 +1920,8 @@ h6:hover .anchor-link {
   font-size: 100%;
   font-style: italic;
 }
-</style>
-<style type="text/css">.highlight .hll { background-color: #ffffcc }
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
@@ -2032,8 +1985,8 @@ h6:hover .anchor-link {
 .highlight .vc { color: #19177C } /* Name.Variable.Class */
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style>
-<style type="text/css">
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -2069,56 +2022,56 @@ h6:hover .anchor-link {
 .ansi-white-intense-bg { background-color: #A1A6B2; }
 
 .ansi-bold { font-weight: bold; }
-</style>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>I am playing on Team 20 in this year's Boston ultimate frisbee spring hat league.  Open spots for men in spring hat league fill up completely within an hour of registration starting, so I was super excited to get a roster spot.  Almost immediately after I got the confirmation email on March 22 that I was in the league, I began to wonder how good my team was going to be.</p>
-<blockquote><p>Disclaimer: This is hat league, in which players are (mostly) randomly assigned to teams.  The primary purpose of the league is to have fun playing ultimate frisbee.  I fully adhere to the principle that winning is secondary here.</p>
-</blockquote>
-<p>With the disclaimer out of the way, I will admit that I am compulsively interested in quantifying talent at ultimate frisbee.  Fortunately, the Boston Ultimate Disc Alliance (<a href="http://buda.org">BUDA</a>) records the score of every game played in all leagues.  The roster for every team is available as well.  Game scores and rosters can be used to generate and assign a rating to every player in the database.</p>
-<p>Over the past week, I scraped the BUDA website using <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a>, built the player rating database, and ranked each of the teams in spring hat league.  Check out the python code <a href="https://github.com/sbussmann/buda-ratings/blob/master/src/data/scrape_buda.py">here</a> that does all of this.</p>
-<p>The upshot?  My assertion that winning is a secondary goal will be put to the test; I'm projecting team 20 to finish 25th out of 30.  Yikes!</p>
-<p><img alt="Team 20 Projection" src="figures/Team20Rating.png" /></p>
-<p>Here is the full set of projected rankings.  The season starts tonight!  Looking forward to testing my projections!</p>
-<ol>
-<li>Team 2</li>
-<li>Team 3 </li>
-<li>Team 11 </li>
-<li>Team 14 </li>
-<li>Team 23 </li>
-<li>Team 10 </li>
-<li>Team 13 </li>
-<li>Team 19 </li>
-<li>Team 24 </li>
-<li>Team 21 </li>
-<li>Team 22 </li>
-<li>Team 30 </li>
-<li>Team 6 </li>
-<li>Team 12 </li>
-<li>Team 17 </li>
-<li>Team 8</li>
-<li>Team 18 </li>
-<li>Team 9 </li>
-<li>Team 16 </li>
-<li>Team 15 </li>
-<li>Team 26</li>
-<li>Team 25</li>
-<li>Team 7</li>
-<li>Team 1 </li>
-<li>Team 20 </li>
-<li>Team 4 </li>
-<li>Team 29 </li>
-<li>Team 5 </li>
-<li>Team 27 </li>
-<li>Team 28 </li>
-</ol>
-</div>
-</div>
-</div>
-<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;I am playing on Team 20 in this year's Boston ultimate frisbee spring hat league.  Open spots for men in spring hat league fill up completely within an hour of registration starting, so I was super excited to get a roster spot.  Almost immediately after I got the confirmation email on March 22 that I was in the league, I began to wonder how good my team was going to be.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Disclaimer: This is hat league, in which players are (mostly) randomly assigned to teams.  The primary purpose of the league is to have fun playing ultimate frisbee.  I fully adhere to the principle that winning is secondary here.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;With the disclaimer out of the way, I will admit that I am compulsively interested in quantifying talent at ultimate frisbee.  Fortunately, the Boston Ultimate Disc Alliance (&lt;a href="http://buda.org"&gt;BUDA&lt;/a&gt;) records the score of every game played in all leagues.  The roster for every team is available as well.  Game scores and rosters can be used to generate and assign a rating to every player in the database.&lt;/p&gt;
+&lt;p&gt;Over the past week, I scraped the BUDA website using &lt;a href="http://www.crummy.com/software/BeautifulSoup/"&gt;BeautifulSoup&lt;/a&gt;, built the player rating database, and ranked each of the teams in spring hat league.  Check out the python code &lt;a href="https://github.com/sbussmann/buda-ratings/blob/master/src/data/scrape_buda.py"&gt;here&lt;/a&gt; that does all of this.&lt;/p&gt;
+&lt;p&gt;The upshot?  My assertion that winning is a secondary goal will be put to the test; I'm projecting team 20 to finish 25th out of 30.  Yikes!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Team 20 Projection" src="figures/Team20Rating.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Here is the full set of projected rankings.  The season starts tonight!  Looking forward to testing my projections!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Team 2&lt;/li&gt;
+&lt;li&gt;Team 3 &lt;/li&gt;
+&lt;li&gt;Team 11 &lt;/li&gt;
+&lt;li&gt;Team 14 &lt;/li&gt;
+&lt;li&gt;Team 23 &lt;/li&gt;
+&lt;li&gt;Team 10 &lt;/li&gt;
+&lt;li&gt;Team 13 &lt;/li&gt;
+&lt;li&gt;Team 19 &lt;/li&gt;
+&lt;li&gt;Team 24 &lt;/li&gt;
+&lt;li&gt;Team 21 &lt;/li&gt;
+&lt;li&gt;Team 22 &lt;/li&gt;
+&lt;li&gt;Team 30 &lt;/li&gt;
+&lt;li&gt;Team 6 &lt;/li&gt;
+&lt;li&gt;Team 12 &lt;/li&gt;
+&lt;li&gt;Team 17 &lt;/li&gt;
+&lt;li&gt;Team 8&lt;/li&gt;
+&lt;li&gt;Team 18 &lt;/li&gt;
+&lt;li&gt;Team 9 &lt;/li&gt;
+&lt;li&gt;Team 16 &lt;/li&gt;
+&lt;li&gt;Team 15 &lt;/li&gt;
+&lt;li&gt;Team 26&lt;/li&gt;
+&lt;li&gt;Team 25&lt;/li&gt;
+&lt;li&gt;Team 7&lt;/li&gt;
+&lt;li&gt;Team 1 &lt;/li&gt;
+&lt;li&gt;Team 20 &lt;/li&gt;
+&lt;li&gt;Team 4 &lt;/li&gt;
+&lt;li&gt;Team 29 &lt;/li&gt;
+&lt;li&gt;Team 5 &lt;/li&gt;
+&lt;li&gt;Team 27 &lt;/li&gt;
+&lt;li&gt;Team 28 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
@@ -2144,29 +2097,5 @@ h6:hover .anchor-link {
         "}); ";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-</script>
-
-                <div class="clear"></div>
-
-                <div class="info">
-                    <a href="/forecast-sph2016.html">posted at 21:12</a>
-                    &nbsp;&middot;&nbsp;<a href="/category/posts.html" rel="tag">posts</a>
-                    &nbsp;&middot;
-                    &nbsp;<a href="/tag/buda.html" class="tags">buda</a>
-                </div>
-            </article>
-
-            <div class="clear"></div>
-            <footer>
-                <p>
-                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
-                &middot;
-                Powered by <a href="http://getpelican.com">Pelican</a>
-                &middot;
-                <a href="/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
-            </footer>
-        </div>
-        <div class="clear"></div>
-    </div>
-</body>
-</html>
+&lt;/script&gt;
+</summary><category term="buda"></category></entry></feed>
