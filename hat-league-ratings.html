@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-    <title>Analytical Insight | Spring Hat League 2016 Post-Mortem</title>
+    <title>Analytical Insight | Hat League Ratings</title>
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Analytical Insight Full Atom Feed" />
@@ -26,11 +26,11 @@
         </div>
     </header>
     <div id="wrapper">
-        <div id="content">            <h4 class="date">May 22, 2016</h4>
+        <div id="content">            <h4 class="date">Sep 22, 2016</h4>
 
             <article class="post">
                 <h2 class="title">
-                    <a href="/sph2016-post-mortem.html" rel="bookmark" title="Permanent Link to &quot;Spring Hat League 2016 Post-Mortem&quot;">Spring Hat League 2016 Post-Mortem</a>
+                    <a href="/hat-league-ratings.html" rel="bookmark" title="Permanent Link to &quot;Hat League Ratings&quot;">Hat League Ratings</a>
                 </h2>
 
                 <style type="text/css">/*!
@@ -1010,62 +1010,39 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Spring hat league 2016 wrapped up last week, so it's time to look at how my
-predictions fared!</p>
-<p>Let's jump straight in with the money plot.  This diagram shows the average
-score differential per game for all of the teams in the "JP Mixed (4/3)"
-division of spring hat league.  My team is highlighted by the red circle.  Yes,
-that's us in the lower left corner of the diagram.  I projected my team to
-finish near the bottom of the rankings, and we did.  I am proud and 
-embarrassed at the same time.</p>
-<p><img alt="Average score differential per game vs. predicted
-rating" src="https://github.com/sbussmann/buda-ratings/blob/master/reports/figures/SpringHat2016_validation.png?raw=true" /></p>
-<p>Another interesting feature of this diagram is the trend for teams with 
-higher predicted ratings to have better score differentials.  This is 
-compelling evidence in support of my methodology to rate BUDA teams.  I 
-suspect that putting this rating system into production for hat 
-league drafts would lead to more balanced teams than the current system.  To 
-test this hypothesis, I need access to the ratings that BUDA currently uses 
-for the draft.  I plan to contact BUDA to make this happen, with the eventual
- goal of implementing my ratings during hat league drafts.</p>
-<p>One fun question we can ask right away is: how would my team have to change 
-to become an average spring hat league team?  To answer this question, we 
-need to know three things:</p>
-<ol>
-<li>There are 16 players on each team.</li>
-<li>A fantastic player has a rating of about 1800.</li>
-<li>A complete novice has a rating of about 800.  </li>
-</ol>
-<p>If we replaced the lowest rated player on our roster with a complete stud, our
-team rating would go up by (1800 - 800) / 16 = 62.5 points.  My team's rating
-would become about 1120 -- we'd be significantly below average, but not the
-worst team in the league anymore.  We'd reach about 1180 with another stud --
-enough to be solidly in the upper half of the league.  Studs don't just grow on
-trees, so what if we added a "reasonably good player" (i.e., rating of about
-1400)?  In this case, we'd need about 3 players to get up to league average.</p>
-<p>In future posts, I plan to discuss</p>
-<ul>
-<li>methods to improve my ratings</li>
-<li>interesting teams (what's going on with the team with a predicted rating 
-of 1050 and a score differential of +7??)</li>
-<li>comparison to existing BUDA rating system (if I get access to the data)</li>
-<li>interesting trends with time in the BUDA database</li>
-</ul>
-<blockquote><p>Note: In my last post, I ranked both the "JP Mixed (4/3)" and "Lexington Mixed
-(4/3) Weekend" divisions, which is why I had 30 teams listed in the previous
-post.</p>
+<h4 id="BUDA-Rating-and-Team-Performance">BUDA Rating and Team Performance<a class="anchor-link" href="#BUDA-Rating-and-Team-Performance">¶</a></h4><p>I'm excited to announce that I have been given access to the BUDA database of player ratings!  This means that I can compare my system of rating players with the one that is currently in use by BUDA.</p>
+<p>Once again, let's dive straight in with the data: the relationship between <code>BUDA Rating</code> and team performance (represented by average plus/minus per game).  Each dot on this plot is a spring hat league team in the "JP Mixed (4/3)" division.  I've included teams from 2010 through the present.  The <code>BUDA Rating</code> shown is the average of the BUDA ratings for the players on that team.</p>
+<p><img alt="Average score differential per game vs. BUDA ratings used for draft, 2010 - 2016" src="https://github.com/sbussmann/buda-ratings/blob/master/reports/figures/BUDARatingComparison.png?raw=true" /></p>
+<p>Central conclusion: there is no obvious correlation between team performance and <code>BUDA Rating</code>.  The Pearson correlation coefficient is a paltry 0.095, and the p-value of 0.21 indicates that there is a 1-in-5 chance that this distribution of data could have been drawn randomly.  In other words, you can't use <code>BUDA Rating</code> to predict team performance.  This is a sensible result, since hat league is designed to assign players to teams in a way that maximizes parity league-wide, and <code>BUDA Rating</code> is the metric by which BUDA has assigned players to teams.</p>
+<h4 id="Club-Rating-and-Team-Performance">Club Rating and Team Performance<a class="anchor-link" href="#Club-Rating-and-Team-Performance">¶</a></h4><p>Now let's take a look at the relationship between team performance and the <code>Club Rating</code> that I've developed over the past few months.  As a brief refresher, it's based on the idea that most players participate in club leagues in which there is a vetting process that determines whether or not a player can join a team.  This vetting process can be as simple as a recommendation from a friend already on the team to something as complicated as a full tryout.  So if someone plays on a high-level club team, they will have a high <code>Club Rating</code>.  If they play on a low-level club team, they will have a low <code>Club Rating</code>.</p>
+<p><img alt="Average score differential per game vs. Club Rating, 2010 - 2016" src="https://github.com/sbussmann/buda-ratings/blob/master/reports/figures/ClubRatingComparison.png?raw=true" /></p>
+<p>Central conclusion: <code>Club Rating</code> correlates strongly with team performance!  The Pearson correlation coefficient is now 0.43, and the p-value is 3.9e-9--there is no chance this distribution of points was obtained randomly.  This means that <code>Club Rating</code> can be used to predict team performance.</p>
+<blockquote><p>Note: I've converted <code>Club Rating</code> to the same scale as <code>BUDA Rating</code> for convenience of comparison.</p>
+<p>Note: Keen eyes may notice that the outlier from spring hat league 2016 is no longer as obvious in this diagram.  This is because I'm now using information from the BUDA player rating database to fill in when club playing experience data is not available.</p>
 </blockquote>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [ ]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span> 
-</pre></div>
-</div>
+<p>We can dig a bit further to understand why <code>BUDA Rating</code> is less predictive of team performance than <code>Club Rating</code>.  Each player's <code>BUDA Rating</code> is the arithmetic mean of their <code>Self Rating</code> and their <code>Captain Rating</code>.  <code>Self Rating</code> is the rating that player has provided about themselves.  I.e., they indicate how far they can throw the disc, how fast they run, etc.  <code>Captain Rating</code> is the rating that one or more captains have provided about that player (based on answers to the same questions used to calculate <code>Self Rating</code>).</p>
+<p>Captains are volunteers -- there is no requirement to provide ratings for their players, and often they don't.  In fact, about 55% of players have no <code>Captain Rating</code>.  In this situation, <code>BUDA Rating</code> is equal to <code>Self Rating</code>.</p>
+<blockquote><p>Note: a player's <code>Captain Rating</code> is used in place of <code>Club Rating</code> if experience at the club level is not available.  If no captains have rated a given player, then <code>Self Rating</code> is used in place of <code>Captain Rating</code>.  If no captains have rated a given player AND that player has no club experience, then <code>Self Rating</code> is used in place of <code>Club Rating</code>.</p>
+</blockquote>
+<h4 id="Self-Rating-and-Team-Performance">Self Rating and Team Performance<a class="anchor-link" href="#Self-Rating-and-Team-Performance">¶</a></h4><p>Let's compare <code>Self Rating</code> to team performance.</p>
+<p><img alt="Average score differential per game vs. Self Rating, 2010 - 2016" src="https://github.com/sbussmann/buda-ratings/blob/master/reports/figures/SelfRatingComparison.png?raw=true" /></p>
+<p>There is a striking, negative correlation between <code>Self Rating</code> and team performance!  In other words, the higher a team's average <code>Self Rating</code>, the more they are outscored by their opponents.  How can this be?  There are two plausible explanations, both of which are likely at work.</p>
+<ol>
+<li><p>First, experienced players are aware that if they "sandbag" -- i.e., rate themselves lower than they actually are -- then they are likely to have stronger teammates and therefore likely to win more games.  There are many examples in the database of this effect, some more extreme than others.</p>
+</li>
+<li><p>Second, newer players lack the experience needed to rate themselves accurately.  They may under-rate or over-rate their skill level, simply because they are unfamiliar with the average league-wide skill level.  In a league with 24 teams (as is the case for spring hat league), there will be teams that randomly happen to have a cluster of players who over-rated themselves.  These teams will have a tough road ahead of them.</p>
+</li>
+</ol>
+<h4 id="Captain-Rating-and-Team-Performance">Captain Rating and Team Performance<a class="anchor-link" href="#Captain-Rating-and-Team-Performance">¶</a></h4><p>Finally, let's compare <code>Captain Rating</code> to team performance.</p>
+<p><img alt="Average score differential per game vs. Captain Rating, 2010 - 2016" src="https://github.com/sbussmann/buda-ratings/blob/master/reports/figures/CaptainRatingComparison.png?raw=true" /></p>
+<p><code>Captain Rating</code> correlates strongly with team performance, although not as strongly as <code>Club Rating</code> (Pearson correlation coefficient of 0.31 vs. 0.43).  It is clear that <code>Captain Rating</code> is far more predictive of true skill level than <code>Self Rating</code>.  This makes sense simply because captains have much more information at their disposal.  For example, they can rate the players on their team in a relative sense ("I need to make sure that Player X's rating is higher than Player Y's").  In fact, it might be the case that <code>Captain Rating</code> would outperform <code>Club Rating</code> if more than 45% of players had captain's ratings.  Given that captains are volunteers and busy people (like everyone else), it seems unreasonable to expect this percentage to change significantly in the future.</p>
+<h4 id="Recommendations">Recommendations<a class="anchor-link" href="#Recommendations">¶</a></h4><p>Going forward, I recommend that BUDA use  <code>Club Rating</code> and <code>Captain Rating</code> to determine player ratings in future hat leagues.  <code>Self Rating</code> should be avoided whenever possible for player ratings.</p>
+<h4 id="Next-steps">Next steps<a class="anchor-link" href="#Next-steps">¶</a></h4><ul>
+<li>Identify optimal combination of <code>Club Rating</code> and <code>Captain Rating</code> that yields <code>New BUDA Rating</code>.</li>
+<li>Work with BUDA admins to implement <code>New BUDA Rating</code> for upcoming Holiday Hat League 2016 (starts in late October).</li>
+<li>Investigate forecasting team performance not just by average <code>Club Rating</code> for players on the team, but also by average <code>Club Rating</code> for each quartile (i.e., average <code>Club Rating</code> for top 25% of players on the team, second-best 25%, third-best 25%, and bottom 25%).  The idea is that the top 25% of players on a team might be more impactful than the bottom 25%.  This method would be able to take this effect into account.</li>
+<li>Submit an abstract on this work to the 2017 Sloan Sports Analytics Conference!</li>
+</ul>
 </div>
 </div>
 </div>
@@ -1100,7 +1077,7 @@ post.</p>
                 <div class="clear"></div>
 
                 <div class="info">
-                    <a href="/sph2016-post-mortem.html">posted at 22:13</a>
+                    <a href="/hat-league-ratings.html">posted at 02:08</a>
                     &nbsp;&middot;&nbsp;<a href="/category/posts.html" rel="tag">posts</a>
                     &nbsp;&middot;
                     &nbsp;<a href="/tag/buda.html" class="tags">buda</a>
